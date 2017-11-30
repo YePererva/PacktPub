@@ -41,7 +41,10 @@ email    = r'xxxxxxxxxxxxxxxxx'
 password = r'yyyyyyyyyyyyyyyyy'
 ```
 where:
-xxxxxxxxxxxxxxxxx - your e-mail
-yyyyyyyyyyyyyyyyy - your password
+- xxxxxxxxxxxxxxxxx - your e-mail
+- yyyyyyyyyyyyyyyyy - your password
 They need to be typed in between quotation marks.
 
+### Tested platforms:
+- Windows 10 [x64] + Python 3.6.3
+- Fedora 27 [x64] + Python 3.6.1

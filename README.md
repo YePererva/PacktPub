@@ -2,6 +2,7 @@
 
 Script for work with Packt Publishing account.
 
+
 Can log-in into your account and download all books and code samples, that you've bought.
 Script **DOESN'T** hack their servers or download all books from store. It just downloads all items, you've purchased.
 
@@ -28,8 +29,9 @@ python3 path_to_PacktPublishing.py --email user.name.domain.com --pass your_sofi
 ```
 ### Simple use
 To define credentials inside of script and use simple run:
+```
 python3 path_to_PacktPublishing.py
-
+```
 Change following lines:
 ```
 email = None
@@ -43,6 +45,7 @@ password = r'yyyyyyyyyyyyyyyyy'
 where:
 - xxxxxxxxxxxxxxxxx - your e-mail
 - yyyyyyyyyyyyyyyyy - your password
+
 They need to be typed in between quotation marks.
 
 ### Tested platforms:

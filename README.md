@@ -26,7 +26,7 @@ pip install MechanicalSoup html5lib requests beautifulsoup4
 ### Direct use
 For direct transfering if account credentials to script with command line:
 ```
-python3 path_to_PacktPublishing.py --email user.name.domain.com --pass your_sofisticated_password
+python3 path_to_PacktPublishing.py --email username@domain.com --pass your_sofisticated_password
 ```
 ### Simple use
 To define credentials inside of script and use simple run:

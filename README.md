@@ -24,7 +24,7 @@ pip install MechanicalSoup html5lib requests beautifulsoup4
 ## Usage:
 
 ### Direct use
-For direct transfering if account credentials to script with command line:
+For direct transfering of account credentials to script with command line:
 ```
 python3 path_to_PacktPublishing.py --email username@domain.com --pass your_sofisticated_password
 ```
@@ -52,3 +52,6 @@ They need to be typed in between quotation marks.
 ### Tested platforms:
 - Windows 10 [x64] + Python 3.6.3
 - Fedora 27 [x64] + Python 3.6.1
+
+### Currently conflicting:
+With Python 3.7 - reason - impossible to install MechanicalSoup with Python 3.7

@@ -21,6 +21,16 @@ Install following packages before run:
 python -m pip install --upgrade pip
 pip install MechanicalSoup html5lib requests beautifulsoup4
 ```
+### NB! If using Python 3.7:
+Current version of MechanicalSoup available with pip can't be installed for Python 3.7. Use following to install dependencies on Python 3.7 [Windows]:
+```
+python -m pip install --upgrade pip
+git clone https://github.com/MechanicalSoup/MechanicalSoup.git
+cd MechanicalSoup
+python setup.py install
+pip install html5lib requests beautifulsoup4
+```
+
 ## Usage:
 
 ### Direct use
@@ -50,8 +60,5 @@ where:
 They need to be typed in between quotation marks.
 
 ### Tested platforms:
-- Windows 10 [x64] + Python 3.6.3
+- Windows 10 [x64] + Python 3.6.3 and Python 3.7.0
 - Fedora 27 [x64] + Python 3.6.1
-
-### Currently conflicting:
-With Python 3.7 - reason - impossible to install MechanicalSoup with Python 3.7

@@ -3,16 +3,16 @@
 Script for work with Packt Publishing account.
 
 
-Can log-in into your account and download all books and code samples, that you've bought.
-Script **DOESN'T** hack their servers or download all books from store. It just downloads all items, you've purchased.
+It can log-in into your account and download all books and code samples, that you've bought.
+Script **DOES NOT** hack their servers or download all books from store. It just downloads all items, you've purchased.
 
-Script was designed to keep track of my personal library on local computer and automatically update it with every new book purchase.
+Script was designed to keep track of my personal library on local computer and automatically update it with every new book purchased.
 
 ## Language:
 Python 3
 
 ## Dependencies:
-Install following packages before run: 
+Install following packages before run:
 * MechanicalSoup
 * html5lib
 * requests

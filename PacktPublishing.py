@@ -81,11 +81,11 @@ class PacktPub ():
 			page = self.browser.get_current_page()
 			# Get list of all books on this page
 			booklist = page.find('div', {"id" : "account-right-content"}).find_all('div', {"class" : "product-line unseen"})
-			print ("\tTotal books found on current page:\t", len(booklist))
+			print ("Total books found on current page:\t", len(booklist))
 			for book in booklist:
 				title = book['title'].replace(' [eBook]', '')
 				title = fix_symbols(title)
-				print('\t\t' + title)
+				print('\t' + title)
 				download_container = book.find('div', {"class" : "download-container cf "})
 				links = download_container.find_all('a')
 				for link in links:

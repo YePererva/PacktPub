@@ -18,7 +18,8 @@ Install following packages before run:
 * requests
 * beautifulsoup4
 ```
-pip MechanicalSoup html5lib requests beautifulsoup4
+python -m pip install --upgrade pip
+pip install MechanicalSoup html5lib requests beautifulsoup4
 ```
 ## Usage:
 
